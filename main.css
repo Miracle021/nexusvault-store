@@ -1,40 +1,23 @@
-body.landing {
+body {
   background-color: #000;
-  font-family: 'Share Tech Mono', monospace;
   color: #00ffe6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
-  background-image: radial-gradient(circle, #111 0%, #000 80%);
-  overflow: hidden;
+  font-family: 'Courier New', monospace;
+  padding: 2em;
 }
-
-.glitch {
-  font-size: 4em;
-  position: relative;
-  color: #00fff7;
-  text-shadow: 2px 2px #ff00ff, -2px -2px #00ff00;
+h1, h2 {
+  text-shadow: 2px 2px #ff00ff;
 }
-
-.tagline {
-  margin-top: 10px;
-  font-size: 1.2em;
-}
-
-.btn {
-  margin-top: 20px;
-  padding: 10px 20px;
-  color: #000;
+button {
   background-color: #00ffe6;
   border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #00ffe6;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background-color: #00aaff;
-  color: #fff;
 }
