@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NexusVault - Shop</title>
+  <link rel="stylesheet" href="style/main.css" />
+</head>
+<body class="shop">
+  <header>
+    <h1>NexusVault Store</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="login.html">Login</a> |
+      <a href="dashboard.html">Dashboard</a> |
+      <a href="checkout.html">Checkout</a>
+    </nav>
+  </header>
+  <main>
+    <section class="products">
+      <article class="product">
+        <h2>Encrypted Drive</h2>
+        <p>256-bit AES USB Stick - 64GB</p>
+        <button onclick="addToCart('Encrypted Drive')">Add to Cart</button>
+      </article>
+      <article class="product">
+        <h2>Private VPN</h2>
+        <p>1 Year Subscription - No Logs</p>
+        <button onclick="addToCart('Private VPN')">Add to Cart</button>
+      </article>
+    </section>
+  </main>
+  <script src="js/shop.js"></script>
+</body>
+</html>
