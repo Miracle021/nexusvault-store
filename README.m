@@ -23,9 +23,4 @@
 
 ---
 
-##  Run Locally
 
-```bash
-git clone https://github.com/your-username/nexusvault.git
-cd nexusvault
-open index.html
